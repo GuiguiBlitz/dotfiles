@@ -34,3 +34,4 @@ rustormy -c Lyon --colors
 ### bling.sh source start
 test -f /usr/share/ublue-os/bling/bling.sh && source /usr/share/ublue-os/bling/bling.sh
 ### bling.sh source end
+eval "$(atuin init bash)"
