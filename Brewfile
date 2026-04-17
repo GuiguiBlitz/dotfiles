@@ -14,16 +14,25 @@ brew "dysk"
 brew "eza"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
+# Command-line fuzzy finder
+brew "fzf"
 # Interact with Google Gemini AI models from the command-line
 brew "gemini-cli"
 # GitHub command-line tool
 brew "gh"
 # Client library for huggingface.co hub
 brew "hf"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Kubernetes CLI To Manage Your Clusters In Style!
 brew "k9s"
+brew "k9s"
+# Kubernetes command-line tool
+brew "kubernetes-cli"
 # Easily check your clusters for use of deprecated APIs
 brew "kubent"
+# Simple terminal UI for git commands
+brew "lazygit"
 # Polyglot runtime manager (asdf rust clone)
 brew "mise"
 # Ambitious Vim-fork focused on extensibility and agility
