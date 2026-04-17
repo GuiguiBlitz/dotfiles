@@ -2,6 +2,7 @@
 brew "azure-cli"
 # Improved shell history for zsh, bash, fish and nushell
 brew "atuin"
+brew "bash-preexec"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
