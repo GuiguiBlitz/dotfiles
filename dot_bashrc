@@ -34,14 +34,13 @@ rustormy -c Lyon --colors
 ### bling.sh source start
 test -f /usr/share/ublue-os/bling/bling.sh && source /usr/share/ublue-os/bling/bling.sh
 ### bling.sh source end
-eval "$(starship init bash)"
-
 
 . "$HOME/.local/share/../bin/env"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv bash)"
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
+eval "$(atuin init bash)"
 alias ls="eza --icons"
 alias cat="bat -pp "
 alias ll="eza -l --icons --group-directories-first"

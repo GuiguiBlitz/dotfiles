@@ -1,5 +1,7 @@
 # Microsoft Azure CLI 2.0
 brew "azure-cli"
+# Improved shell history for zsh, bash, fish and nushell
+brew "atuin"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
