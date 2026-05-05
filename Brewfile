@@ -29,7 +29,6 @@ brew "hf"
 brew "jq"
 # Kubernetes CLI To Manage Your Clusters In Style!
 brew "k9s"
-brew "k9s"
 # Kubernetes command-line tool
 brew "kubernetes-cli"
 # Easily check your clusters for use of deprecated APIs

@@ -1,3 +1,16 @@
 #!/bin/bash
 # Brewfile hash: {{ include "Brewfile" | sha256sum }}
-brew bundle install --file={{ joinPath .chezmoi.sourceDir "Brewfile" | quote }}
+
+set -euo pipefail
+
+if ! command -v brew >/dev/null 2>&1; then
+	echo "brew not found; skipping package install"
+	exit 0
+fi
+
+if [[ "${CODESPACES:-}" == "true" ]]; then
+	# Keep Codespaces install lean: only tools referenced by shell config.
+	brew install bash-preexec starship direnv zoxide mise atuin eza bat >/dev/null
+else
+	brew bundle install --file={{ joinPath .chezmoi.sourceDir "Brewfile" | quote }}
+fi
