@@ -21,6 +21,10 @@ brew "fd"
 brew "fzf"
 # Interact with Google Gemini AI models from the command-line
 brew "gemini-cli"
+# OpenCode CLI
+brew "opencode"
+# Pi Coding Agent CLI
+brew "pi-coding-agent"
 # GitHub command-line tool
 brew "gh"
 # Client library for huggingface.co hub
