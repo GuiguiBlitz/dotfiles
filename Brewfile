@@ -62,6 +62,8 @@ brew "zoxide"
 # Flux CLI
 brew "fluxcd/tap/flux"
 # Modern TUI for managing Homebrew packages and casks on macOS and Linux
+brew "mani"
+# Manage multiple git repos
 brew "valkyrie00/bbrew/bbrew"
 cask "font-0xproto-nerd-font"
 cask "font-blex-mono-nerd-font"
