@@ -25,7 +25,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -f "$HOME/.cargo/env" ]            && . "$HOME/.cargo/env"
 [ -f "$HOME/.local/bin/env" ]        && . "$HOME/.local/bin/env"
 
-command -v rustormy >/dev/null 2>&1 && rustormy -c Lyon --colors
+rustormy -c Lyon --colors
 
 # brew
 for _d in /home/linuxbrew/.linuxbrew /opt/homebrew /usr/local; do
@@ -54,3 +54,7 @@ alias ll="eza -l --icons --group-directories-first"
 alias la="eza -a --icons --group-directories-first"
 alias lla="eza -la --icons --group-directories-first"
 alias cat="bat -pp"
+# Auto-start/attach tmux in interactive shells
+if [[ -z "$TMUX" ]] && [[ -n "$PS1" ]]; then
+  tmux attach-session -t default 2>/dev/null || tmux new-session -s default
+fi
