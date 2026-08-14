@@ -1,3 +1,5 @@
+# LazyDocker
+brew "lazydocker"
 # Microsoft Azure CLI 2.0
 brew "azure-cli"
 # Improved shell history for zsh, bash, fish and nushell
@@ -21,10 +23,6 @@ brew "fd"
 brew "fzf"
 # Interact with Google Gemini AI models from the command-line
 brew "gemini-cli"
-# OpenCode CLI
-brew "opencode"
-# Pi Coding Agent CLI
-brew "pi-coding-agent"
 # GitHub command-line tool
 brew "gh"
 # Client library for huggingface.co hub
@@ -32,6 +30,7 @@ brew "hf"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Kubernetes CLI To Manage Your Clusters In Style!
+brew "k9s"
 brew "k9s"
 # Kubernetes command-line tool
 brew "kubernetes-cli"
@@ -62,8 +61,6 @@ brew "zoxide"
 # Flux CLI
 brew "fluxcd/tap/flux"
 # Modern TUI for managing Homebrew packages and casks on macOS and Linux
-brew "mani"
-# Manage multiple git repos
 brew "valkyrie00/bbrew/bbrew"
 cask "font-0xproto-nerd-font"
 cask "font-blex-mono-nerd-font"
