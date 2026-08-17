@@ -58,11 +58,8 @@ brew "uutils-coreutils", link: false
 brew "yq"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
-# Flux CLI
-brew "fluxcd/tap/flux"
 # Modern TUI for managing Homebrew packages and casks on macOS and Linux
-brew "valkyrie00/bbrew/bbrew"
-cask "font-0xproto-nerd-font"
+ cask "font-0xproto-nerd-font"
 cask "font-blex-mono-nerd-font"
 cask "font-caskaydia-mono-nerd-font"
 cask "font-comic-shanns-mono-nerd-font"
