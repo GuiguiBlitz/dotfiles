@@ -1,3 +1,5 @@
+# Dive docker image analyzer
+brew "dive"
 # LazyDocker
 brew "lazydocker"
 # Microsoft Azure CLI 2.0
