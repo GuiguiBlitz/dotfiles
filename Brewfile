@@ -1,3 +1,5 @@
+# Worktree wrapper cli
+brew "worktrunk"
 # Dive docker image analyzer
 brew "dive"
 # LazyDocker
