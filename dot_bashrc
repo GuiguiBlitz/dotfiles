@@ -23,9 +23,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ]             && . "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ]    && . "$NVM_DIR/bash_completion"
 [ -f "$HOME/.cargo/env" ]            && . "$HOME/.cargo/env"
+[ -d "$HOME/.cargo/bin" ]            && [[ ":$PATH:" != *":$HOME/.cargo/bin:"* ]] && export PATH="$HOME/.cargo/bin:$PATH"
 [ -f "$HOME/.local/bin/env" ]        && . "$HOME/.local/bin/env"
 
-rustormy -c Lyon --colors
+command -v rustormy >/dev/null && rustormy -c Lyon --colors
 
 # brew
 for _d in /home/linuxbrew/.linuxbrew /opt/homebrew /usr/local; do
