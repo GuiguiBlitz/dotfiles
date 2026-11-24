@@ -26,7 +26,7 @@ brew "fd"
 # Command-line fuzzy finder
 brew "fzf"
 # Interact with Google Gemini AI models from the command-line
-brew "gemini-cli"
+brew "antigravity"
 # GitHub command-line tool
 brew "gh"
 # Client library for huggingface.co hub
